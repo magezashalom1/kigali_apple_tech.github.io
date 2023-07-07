@@ -325,7 +325,7 @@
             <h3 class="title" data-title="Who We Are">About Us</h3>
           </div>
 
-          <div class="section-body grid-2">
+          <div id="AboutUsSection" class="section-body grid-2">
             <div class="column-1">
               <h3 class="title-sm">Learn More About Us </h3>
               <p class="text">
@@ -345,12 +345,11 @@
 
             <div class="column-2 image">
               <img src="./img/shapes/points4.png" class="points" alt="" />
-              <video width="524" height="631" controls autoplay>
+              <video id="OurVideo" controls autoplay width="524" height="631">
                 <source src="./img/about1.mp4" type="video/mp4" class="z-index">
                 <source src="./img/about1.ogg" type="video/ogg" class="z-index">
                 Your browser does not support the video tag.
               </video>
-
             </div>
           </div>
         </div>
@@ -674,7 +673,7 @@
 
       <section class="hireme" id="hireme">
         <div class="container">
-          <h3 class="title">For Any Inquiries<br></h3>
+          <h3 class="title">For Any Inquiries</h3>
           <p class="text">
             Ready to get your Apple devices repaired or have any questions? 
             We'd love to hear from you! Reach out to us at Kigali Apple Tech 
@@ -797,6 +796,16 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      document.getElementById("OurVideo").addEventListener("mouseover", function() {
+        this.play();
+      });
+          
+      document.getElementById("OurVideo").addEventListener("mouseleave",function() {
+        this.pause();
+      });
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/isotope.pkgd.min.js"></script>

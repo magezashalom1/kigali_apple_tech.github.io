@@ -2215,6 +2215,12 @@ header .circle {
     margin: 0.25rem 0;
   }
 
+  #AboutUsSection {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+  }
+
 }
 
 /* End Responsive */
