@@ -1928,10 +1928,6 @@ header .circle {
     width: 50%;
   }
 
-  .gallery-image {
-    margin-left: -10rem ;
-  }
-
   .grid {
     margin: 0.4rem 4.1rem;
   }
@@ -2209,8 +2205,12 @@ header .circle {
     margin: 0.25rem 0;
   }
 
+  .gallery-image {
+    margin-left: -8rem ;
+  }
+
   #AboutUsSection {
-      margin: auto;
+      margin: 5rem;
       width: 50%;
       padding: 10px;
   }
