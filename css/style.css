@@ -1928,10 +1928,9 @@ header .circle {
     width: 50%;
   }
 
-  /* .gallery-image {
-    height: 210px;
-    max-width: 270px;
-  } */
+  .gallery-image {
+    margin-left: -10rem ;
+  }
 
   .grid {
     margin: 0.4rem 4.1rem;
@@ -1941,11 +1940,6 @@ header .circle {
     padding: 0.8rem;
     width: 40%;
   }
-/* 
-  .gallery-image {
-    height: 180px;
-    max-width: 325px;
-  } */
 
   .background-bg {
     height: 340px;
