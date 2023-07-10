@@ -81,7 +81,7 @@
               <h1 class="header-title">Kigali Apple Tech</h1>
               <p class="text">
                 Welcome to Kigali Apple Tech, your trusted destination for all Apple device repair needs. 
-                With our team of skilled technicians, we are dedicated to providing top-quality repairs 
+                With our team of skilled technicians, we are dedicated to providing top quality repairs 
                 for your iPhone, iPad, MacBook, Apple Watch, and other Apple accessories. Trust Kigali 
                 Apple Tech to bring your devices back to life. Welcome to the Kigali Apple Tech family!
               </p>
@@ -126,7 +126,7 @@
                     services for all Apple devices. Whether your iPhone, iPad, MacBook, or Apple Watch 
                     is facing hardware or software issues, our team of skilled technicians is here to help.
                   </p>
-                  <a href="#service1" class="btn small">Read more</a>
+                  <a href="#service1" class="btn small">View more</a>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@
                     range of services for Apple accessories. We understand the importance 
                     of these accessories in enhancing your overall Apple experience.
                   </p>
-                  <a href="#service2" class="btn small">Read more</a>
+                  <a href="#service2" class="btn small">View more</a>
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@
                     of services to cater to all your Apple device needs. 
                     Alongside our repair services, we offer other additional services.
                   </p>
-                  <a href="#service3" class="btn small">Read more</a>
+                  <a href="#service3" class="btn small">View more</a>
                 </div>
               </div>
             </div>
@@ -333,12 +333,9 @@
                 At Kigali Apple Tech, we are a dedicated team of Apple device repair experts passionate 
                 about providing exceptional service to our valued customers. With a wealth of experience 
                 in the industry, we take pride in our ability to diagnose and repair all Apple devices, 
-                from iPhones and iPads to MacBooks, Apple Watches and more. We believe in using only genuine Apple 
-                parts to ensure the highest quality repairs and optimal performance. Our commitment to customer 
-                satisfaction extends beyond repairs, as we offer additional services such as data recovery, 
-                device upgrades, software malfunctions and expert consultation. With our friendly and knowledgeable team, 
-                we strive to deliver a seamless and enjoyable experience for every customer. Choose Kigali Apple Tech 
-                for all your Apple device repair needs and let us bring your devices back to life in no time.<br><br>
+                from iPhones and iPads to MacBooks, Apple Watches and more. We use genuine Apple 
+                parts to ensure the highest quality repairs for your devices. Choose Kigali Apple Tech 
+                for all your repair needs and let us bring your devices back to life.<br><br>
               </p>
 
               <a href="#" class="btn">Read more</a>
@@ -355,6 +352,12 @@
           </div>
         </div>
       </section>
+
+      <video id="OurVideo1" controls autoplay>
+        <source src="./img/about.mp4" type="video/mp4" class="z-index">
+        <source src="./img/about.ogg" type="video/ogg" class="z-index">
+        Your browser does not support the video tag.
+      </video>
 
       <section class="records">
         <div class="overlay overlay-sm">
@@ -807,6 +810,18 @@
         this.pause();
       });
     </script>
+
+    <script>
+      document.getElementById("OurVideo1").addEventListener("mouseover", function() {
+        this.play();
+      });
+          
+      document.getElementById("OurVideo1").addEventListener("mouseleave",function() {
+        this.pause();
+      });
+    </script>
+
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/isotope.pkgd.min.js"></script>

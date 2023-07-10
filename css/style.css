@@ -26,6 +26,7 @@ html {
 body,
 button,
 input,
+
 textarea {
   font-family: "Poppins", sans-serif;
 }
@@ -40,6 +41,11 @@ ul {
 
 img {
   width: 100%;
+}
+
+/* Hiding the video for smaller screens */
+#OurVideo1{
+  display: none;
 }
 
 .container {
@@ -2112,6 +2118,11 @@ header .circle {
     font-size: 1.8rem;
   }
 
+  .header-title {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
   .text {
     font-size: 0.92rem;
   }
@@ -2210,11 +2221,21 @@ header .circle {
   }
 
   #AboutUsSection {
-      margin: 5rem;
-      width: 50%;
-      padding: 10px;
+    width: calc(96% + 1rem);
+    text-align: center;
   }
 
+  #OurVideo {
+    display: none;
+  }
+
+  #OurVideo1{
+    width: calc(95%);
+    display: unset;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
 }
 
 /* End Responsive */
