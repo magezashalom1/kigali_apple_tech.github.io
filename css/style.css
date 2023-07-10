@@ -1928,10 +1928,10 @@ header .circle {
     width: 50%;
   }
 
-  .gallery-image {
+  /* .gallery-image {
     height: 210px;
     max-width: 270px;
-  }
+  } */
 
   .grid {
     margin: 0.4rem 4.1rem;
