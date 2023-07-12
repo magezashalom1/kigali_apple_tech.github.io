@@ -48,6 +48,14 @@ img {
   display: none;
 }
 
+#OurVideo{
+  border-radius: 20px;
+}
+
+/* #OurVideo{
+  margin-top: 2rem;
+} */
+
 .container {
   position: relative;
   z-index: 5;
@@ -2230,6 +2238,7 @@ header .circle {
   }
 
   #OurVideo1{
+    border-radius: 20px;
     width: calc(95%);
     display: unset;
     display: block;
