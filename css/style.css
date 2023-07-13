@@ -48,13 +48,23 @@ img {
   display: none;
 }
 
+#OurMap{
+  display: none;
+  position:relative;
+  text-align:right; 
+  overflow:hidden; 
+  z-index: 0;
+}
+
+
+#OurContact{
+  margin-top: -15rem;
+  z-index: -1;
+}
+
 #OurVideo{
   border-radius: 20px;
 }
-
-/* #OurVideo{
-  margin-top: 2rem;
-} */
 
 .container {
   position: relative;
@@ -1086,8 +1096,9 @@ header .circle {
 
 .contact:before {
   top: 0;
-  height: 40%;
-  background: url("../img/map.png") center center / cover;
+  height: 60%;
+  background: url("../img/contact-bg.png") center center / cover;
+  margin-top: -5px;
 }
 
 .contact:after {
@@ -2212,6 +2223,7 @@ header .circle {
 
   .contact:before {
     background-size: 200%;
+    height:30%;
   }
 
   .contact-form .row {
@@ -2244,6 +2256,14 @@ header .circle {
     display: block;
     margin: auto;
     margin-bottom: 2rem;
+  }
+
+  #OurMap{
+    display: unset;
+  }
+
+  #OurMap1{
+    display: none;
   }
 }
 
