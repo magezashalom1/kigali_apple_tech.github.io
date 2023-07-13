@@ -809,25 +809,31 @@
       </div>
     </footer>
 
-    <script>
-      document.getElementById("OurVideo").addEventListener("mouseover", function() {
-        this.play();
-      });
-          
-      document.getElementById("OurVideo").addEventListener("mouseleave",function() {
-        this.pause();
-      });
-    </script>
-    <script>
-      document.getElementById("OurVideo1").addEventListener("mouseover", function() {
-        this.play();
-      });
-          
-      document.getElementById("OurVideo1").addEventListener("mouseleave",function() {
-        this.pause();
-      });
+    <!-- <script>
+      var video = document.getElementById('OurVideo'), fraction = 0.8;
+      function playVideoOnScroll () {
+        const threshold = 50 //px above the video to start playing
+        let offset = video.getBoundingClientRect().top
+        if (offset < threshold) {
+          demoVideo.play()
+        } else { demoVideo.pause()}
+      }
+      window.addEventListener('scroll', playVideoOnScroll, false)
+      window.addEventListener('resize', playVideoOnScroll, false)
     </script>
 
+    <script>
+      var video = document.getElementById('OurVideo1'), fraction = 0.8;
+      function playVideoOnScroll () {
+        const threshold = 50 //px above the video to start playing
+        let offset = video.getBoundingClientRect().top
+        if (offset < threshold) {
+          demoVideo.play()
+        } else { demoVideo.pause()}
+      }
+      window.addEventListener('scroll', playVideoOnScroll, false)
+      window.addEventListener('resize', playVideoOnScroll, false)
+    </script> -->
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
